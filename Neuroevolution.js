@@ -9,8 +9,8 @@ var Neuroevolution = function(options){
 			return Math.random() * 2 - 1;
 		},
 		population:50,
-		elitism:0.2,
-		randomBehaviour:0.2,
+		elitism:0.4,
+		randomBehaviour:0.1,
 		mutationRate:0.1,
 		mutationRange:0.5,
 		network:[1, [1], 1],
