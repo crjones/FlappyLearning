@@ -185,7 +185,7 @@ Game.prototype.update = function(){
 
 	if(this.interval == 0){
 		var deltaBord = 50;
-		var pipeHoll = 100;
+		var pipeHoll = 110;
 		var hollPosition = Math.round(Math.random() * (this.height - deltaBord * 2 - pipeHoll)) +  deltaBord;
 		this.pipes.push(new Pipe({x:this.width, y:0, height:hollPosition}));
 		this.pipes.push(new Pipe({x:this.width, y:hollPosition+pipeHoll, height:this.height}));
